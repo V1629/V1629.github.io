@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-heading: 'Archivo Black', system-ui, sans-serif;
+  --color-neo-bg: #F0EBE3;
+  --color-neo-red: #E8503A;
+  --color-neo-yellow: #F4C430;
+  --color-neo-blue: #3B6FE0;
+}
+
+@layer base {
+  body {
+    @apply bg-neo-bg text-black font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading uppercase;
+  }
+}
+
+@layer utilities {
+  .neo-border {
+    @apply border-[3px] border-black;
+  }
+  
+  .neo-shadow {
+    @apply shadow-[6px_6px_0px_0px_rgba(0,0,0,1)];
+  }
+
+  .neo-shadow-hover {
+    @apply hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-200;
+  }
+
+  .neo-shadow-red {
+    @apply shadow-[6px_6px_0px_0px_var(--color-neo-red)];
+  }
+
+  .neo-card {
+    @apply bg-white border-[3px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rounded-xl p-6 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-200;
+  }
+
+  .neo-tag {
+    @apply border-[3px] border-black px-3 py-1 text-sm font-bold bg-white inline-block uppercase hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-200;
+  }
+}
