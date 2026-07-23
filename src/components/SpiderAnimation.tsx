@@ -54,10 +54,11 @@ export default function SpiderAnimation() {
       </motion.div>
       
       {/* Spider / Spiderman Container */}
-      {/* Using negative margin (-mt-24) to pull the massive image up so the string perfectly overlaps his hands */}
+      {/* Adjust the marginTop value here to perfectly attach the web to his hands. 
+          More negative (e.g. -250px) pulls him higher up the string. */}
       <motion.div
-        className="relative flex items-start justify-center -mt-24 z-30"
-        style={{ y: 0 }}
+        className="relative flex items-start justify-center z-30"
+        style={{ y: 0, marginTop: '-240px' }}
       >
         {!imageError ? (
           <img 
