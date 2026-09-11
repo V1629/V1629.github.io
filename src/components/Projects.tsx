@@ -6,7 +6,7 @@ export default function Projects() {
       title: 'Buddy AI',
       desc: 'Built a domain specific AI chatbot for KIET capable of answering 50+ student queries using Retrieval-Augmented Generation. Implemented embedding based semantic retrieval over university policy.',
       tags: ['Python', 'RAG', 'LangChain'],
-      link: 'https://kietbuddy-tech.streamlit.app/',
+      link: 'https://kiet-buddy.vercel.app/',
       twoCol: false,
     },
     {
