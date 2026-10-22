@@ -36,8 +36,9 @@ export default function Hero() {
 
       <div className="max-w-4xl relative z-10">
         {/* Tag Pill */}
-        <div className="inline-block bg-neo-yellow neo-border px-4 py-1.5 font-bold text-sm uppercase mb-8 neo-shadow">
-          AI INTERN @ HOOC AI TECHNOLOGIES
+        <div className="inline-flex items-center gap-2 bg-neo-yellow neo-border px-4 py-1.5 font-bold text-sm uppercase mb-8 neo-shadow">
+          <span className="w-2.5 h-2.5 rounded-full bg-green-500 border border-black animate-pulse"></span>
+          AI INTERN @ CONSTEMSAI
         </div>
 
         {/* Headline */}
@@ -54,7 +55,7 @@ export default function Hero() {
         <div className="border-l-[6px] border-neo-blue pl-6 my-10 max-w-2xl">
           <p className="text-lg md:text-xl font-medium leading-relaxed">
             Specializing in Generative AI, RAG architectures, and Multilingual Temporal Extraction. 
-            Currently an IT student at KIET Group of Institutions, building systems that bridge the gap between complex algorithms and human needs.
+            Currently an AI Intern at ConstemsAI and IT student at KIET Group of Institutions, building systems that bridge the gap between complex algorithms and human needs.
           </p>
         </div>
 

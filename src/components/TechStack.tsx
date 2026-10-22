@@ -46,7 +46,11 @@ export default function TechStack() {
             <h3 className="font-bold text-lg uppercase border-b-[3px] border-black pb-2 mb-6">Frameworks & Tools</h3>
             <div className="flex flex-wrap gap-3">
               <span className="neo-tag bg-[#EAE8DD]">LangChain</span>
-              <span className="neo-tag bg-[#EAE8DD]">TensorFlow</span>
+              <span className="neo-tag bg-[#EAE8DD]">LangGraph</span>
+              <span className="neo-tag bg-[#EAE8DD]">PyTorch</span>
+              <span className="neo-tag bg-[#EAE8DD]">Scikit-Learn</span>
+              <span className="neo-tag bg-[#EAE8DD]">FastAPI</span>
+              <span className="neo-tag bg-[#EAE8DD]">ChromaDB</span>
               <span className="neo-tag bg-[#EAE8DD]">Git</span>
               <span className="neo-tag bg-[#EAE8DD]">Docker</span>
             </div>

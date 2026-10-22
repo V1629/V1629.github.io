@@ -22,7 +22,7 @@ export default function Mission() {
               Current Role
             </div>
             <p className="text-lg font-medium leading-relaxed">
-              Leading the development of an Emotional State Analysis module, creating empathetic AI systems that can accurately perceive and respond to complex human emotional cues.
+              Engineering intelligent systems and computer vision solutions at ConstemsAI, driving advanced machine learning workflows to solve complex real-world challenges.
             </p>
           </div>
 
