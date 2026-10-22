@@ -17,7 +17,7 @@ export default function Navbar() {
       </div>
 
       {/* Resume Button */}
-      <a href="https://drive.google.com/file/d/1lceAzeX4ll7dTPBe06Rdnheqf4WwdrDr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bg-black text-white font-bold py-2 px-6 uppercase border-[3px] border-black neo-shadow-red hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_var(--color-neo-red)] transition-all">
+      <a href="https://drive.google.com/file/d/1rq1kRAgf4Vt_keFFHjtSowbjlx70Lfu6/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bg-black text-white font-bold py-2 px-6 uppercase border-[3px] border-black neo-shadow-red hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_var(--color-neo-red)] transition-all">
         Resume
       </a>
     </nav>
